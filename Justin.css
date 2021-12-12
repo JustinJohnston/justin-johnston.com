@@ -39,6 +39,11 @@ body {
   animation: fade-in-bottom 1s ease-in-out both;
 }
 
+.scrolled.fade-in-bottom-proj {
+	animation: fade-in-bottom 1s ease-in;
+
+}
+
 @keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
@@ -113,14 +118,15 @@ button {
 	cursor: pointer;
 }
 button:hover {
-	background-color: black;
+	background-color: white;
+	color: #3333ff;
 }
 
 .buyNowBtn {
 	background-color: #118C4F;
 }
 .buyNowBtn:hover {
-	background-color: black;
+	background-color: white;
 	color: #118C4F;
 }
 
@@ -309,6 +315,9 @@ a.fill-div {
 		grid-gap: 0;
 	}
 }
+
+/* -- COMPUTER -- */
+
 .no1,
 .no2,
 .no3,
@@ -349,13 +358,6 @@ a.fill-div {
 .no9 {
 	background-position: 98% 87%;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-Check so that above mobile portrait view there can still be boxes, but fewer of them to make the picture and change the background size
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* -- TABLET -- */
 
@@ -420,6 +422,9 @@ Check so that above mobile portrait view there can still be boxes, but fewer of 
 		display: none;
 	}
 }
+
+/* -- COMPUTER -- */
+
 .specialHeading {
 	font-size: 2.5em;
 	font-family: TrajanBold;
@@ -427,11 +432,17 @@ Check so that above mobile portrait view there can still be boxes, but fewer of 
 	color: white;
 	text-align: center;
 }
+
+/* -- MOBILE PHONE -- */
+
 @media only screen and (max-width: 600px) {
 	.specialHeading {
 		font-size: 2em;
 	}
 }
+
+/* -- COMPUTER -- */
+
 #footer {
 	height: 10vh;
 	margin-top: 3%;
