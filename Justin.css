@@ -249,7 +249,6 @@ nav {
 /* --- MOBILE PHONE BEGIN --- */
 @media only screen and (max-width: 600px) {
 	.header {
-		height: 125vh;
 		overflow: hidden;
 	}
 }
@@ -272,6 +271,8 @@ nav {
 		padding-top: 0;
 	}
 	.head2 {
+		display: none;
+		visibility: hidden;
 	}
 }
 /* --- MOBILE PHONE END --- */
@@ -288,6 +289,7 @@ nav {
 
 
 /* --- MOBILE PHONE BEGIN --- */
+/*
 @media only screen and (max-width: 600px) {
 	.justin {
 		height: 375%;
